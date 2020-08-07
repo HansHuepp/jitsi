@@ -1,5 +1,4 @@
-ARG JITSI_REPO=jitsi
-FROM ${JITSI_REPO}/base
+FROM jitsi/base
 
 RUN	\
 	mkdir -p /usr/share/man/man1 && \
